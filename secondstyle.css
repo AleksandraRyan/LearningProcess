@@ -27,6 +27,8 @@ img {
 }
 
 button {
+  display: block;
+  margin: auto;
   padding: 15px 30px;
   background-color: transparent;
   border: none;
@@ -112,4 +114,29 @@ button {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
+}
+
+/* Services, Sydney */
+.sydney {
+  text-align: center;
+  max-width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.sydney h2 {
+  text-decoration: overline;
+}
+
+.sydney p {
+  border-top: 1px solid rgb(6, 143, 247);
+  border-bottom: 1px solid rgb(6, 143, 247);
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.sydney button {
+  margin-top: 10px;
 }
