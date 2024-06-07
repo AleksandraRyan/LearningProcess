@@ -97,15 +97,19 @@ button {
   margin-top: 10px;
 }
 
-.text {
-  margin-left: 100px;
-  border: 1px solid blue;
-}
-
-.text h2 {
-  margin-bottom: 50px;
-}
-
-.text p {
-  margin-top: 20px;
+.width {
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  padding: 25px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.7;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
