@@ -139,6 +139,20 @@ button {
   line-height: 1.6;
 }
 
-.sydney button {
-  margin-top: 10px;
+.sydney a {
+  text-decoration: none;
+  display: block;
+  width: 90px;
+  margin: 10px auto;
+  color: #fff;
+  background: rgba(0, 128, 200);
+  border: none;
+  border-radius: 0.4em;
+  padding: 10px 30px;
+  font-family: inherit;
+  transition: ease-in-out 500ms;
+}
+
+.sydney a:hover {
+  background: rgba(0, 128, 200, 0.3);
 }
