@@ -156,3 +156,16 @@ button {
 .sydney a:hover {
   background: rgba(0, 128, 200, 0.3);
 }
+
+.height {
+  border: rgb(6, 143, 247) solid 2px;
+  border-radius: 0.35em;
+  /* max-height: 100%; */
+  padding: 25px;
+  /* box-sizing: border-box;
+  width: 100%; */
+}
+
+hr.border0 {
+  border: rgb(6, 143, 247) 1px solid;
+}
