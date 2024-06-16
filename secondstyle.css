@@ -172,12 +172,16 @@ hr.border0 {
 
 /* Box Model */
 .box-model {
-  border: 5px solid red;
+  border: 5px solid rgb(105, 110, 117);
   text-align: center;
-  width: 320px;
-  height: 263px;
+  width: 50%;
+  height: 50%;
   padding: 10px;
   margin: 25px auto;
   outline: rgb(6, 143, 247) ridge 10px;
-  outline-offset: 15px;
+  outline-offset: 2px;
+}
+
+.box-model h2 {
+  text-decoration: overline;
 }
