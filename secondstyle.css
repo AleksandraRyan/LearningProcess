@@ -169,3 +169,15 @@ button {
 hr.border0 {
   border: rgb(6, 143, 247) 1px solid;
 }
+
+/* Box Model */
+.box-model {
+  border: 5px solid red;
+  text-align: center;
+  width: 320px;
+  height: 263px;
+  padding: 10px;
+  margin: 25px auto;
+  outline: rgb(6, 143, 247) ridge 10px;
+  outline-offset: 15px;
+}
