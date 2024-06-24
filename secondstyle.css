@@ -127,7 +127,7 @@ button {
 }
 
 .sydney h2 {
-  text-decoration: overline;
+  text-decoration-line: overline;
 }
 
 .sydney p {
@@ -184,4 +184,31 @@ hr.border0 {
 
 .box-model h2 {
   text-decoration: overline;
+}
+
+.box-model p {
+  text-align: justify;
+  padding: 10px;
+}
+
+.decoration p {
+  text-align: justify;
+  padding: 20px;
+  border: 2px solid rgb(6, 143, 247);
+  border-radius: 8px;
+  text-shadow: 3px 3px 5px rgb(6, 143, 247);
+  font-size: 15px;
+  line-height: 2;
+  font-style: normal;
+}
+
+.decoration p::first-letter {
+  color: red;
+  font-size: 28px;
+  font-style: italic;
+}
+.decoration p::first-word {
+  color: red;
+  font-size: 28px;
+  font-style: italic;
 }
